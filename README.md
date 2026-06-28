@@ -90,6 +90,7 @@ pip install -r requirements.txt
 ```bash
 python3 src/train_model.py --freeze_backbone --epochs 10
 ```
+<img width="506" height="270" alt="image" src="https://github.com/user-attachments/assets/424adc83-ff2a-4dc5-8c5d-f9be2cde5a64" />
 
 ## Запуск сайта
 
@@ -98,3 +99,6 @@ python3 -m streamlit run app/app.py
 ```
 
 После запуска откроется сайт. На нём можно загрузить фото животного и получить результат классификации.
+
+<img width="520" height="1191" alt="image" src="https://github.com/user-attachments/assets/5e0cf290-a054-49ed-87ce-bd372b104815" />
+
