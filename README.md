@@ -88,21 +88,13 @@ pip install -r requirements.txt
 После того как изображения разложены по папкам, запустите:
 
 ```bash
-python src/train_model.py
-```
-
-## Быстрое обучение только последнего слоя
-
-Если компьютер слабый, можно обучать только финальный слой ResNet18:
-
-```bash
-python src/train_model.py --freeze_backbone --epochs 5
+python3 src/train_model.py --freeze_backbone --epochs 10
 ```
 
 ## Запуск сайта
 
 ```bash
-streamlit run app/app.py
+python3 -m streamlit run app/app.py
 ```
 
 После запуска откроется сайт. На нём можно загрузить фото животного и получить результат классификации.
